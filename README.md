@@ -1,0 +1,4 @@
+# MResProject
+#Exploring the case for parametrised resampling for fairness optimisation driven by nuanced metrics for measuring ML bias
+#Abstract. 
+The paper by Zelaya et al. [1] introduced a parametrised data sampling technique that can be used to optimise classifier’s prediction performance towards any subgroup within the data in accordance with any preferred fairness definition. This prediction performance is measured using three metrics i.e. DPR, EOR and CFR, which are probability ratios informing classifier’s level of prediction disparity for different subgroups. But Borkan et al. [2] introduced a more comprehensive ML bias measuring metrics they claim will provide a nuanced view of ML bias using classifier’s probability score distributions. In this paper we apply ML bias mitigation technique by [1] on public benchmark dataset (Census Income) and measure classifier’s prediction performance in metrics introduce by [2] and
